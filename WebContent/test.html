@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 1</title>
+</head>
+<body>
+<h1>Select the desired operation</h1>
+<form action="index.jsp" method="GET">
+<select name="operation">
+  <option value="upload">upload</option>
+  <option value="search">search</option>
+  <option value="delete">delete</option>
+  <option value="set_statistic">set_statistic</option>
+  <option value="most_common">most_common</option>
+  <option value="longest">longest</option>
+  <option value="exactly_in">exactly_in</option>
+  <option value="create_intersection">create_intersection</option>
+  <option value="longest_chain">longest_chain</option>
+</select>
+
+<br />
+String/Set as input (optional): <input type="text" name="set" />
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
